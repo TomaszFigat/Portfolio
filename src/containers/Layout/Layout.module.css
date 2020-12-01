@@ -1,0 +1,37 @@
+.Content {
+    /* background-color:#2D2D2D; */
+    background-color: white;
+    /* display: block;
+    overflow: auto;
+     
+    position: relative;  */
+
+    height: max-content;
+    
+}
+
+.Footer {
+    
+    
+    color: black;
+    clear: both;
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+    font-family: Montserrat,sans-serif; text-align: center;
+     width: 100%; padding-top: 1rem;padding-bottom: 1rem;
+}
+.Content p {
+    
+    
+    bottom: 0;
+    text-align: center;
+}
+.p {
+    clear: both;
+}
+
+.Layout {
+    height: fit-content;
+    min-height: calc(100vh - 50.4px);
+    
+}

@@ -1,0 +1,17 @@
+
+.Content {
+    
+    width: 100%;
+    
+}
+
+.Footer {
+    
+    
+    color: black;
+    clear: both;
+    -webkit-animation: fadeinout 2s linear forwards;
+    animation: fadeinout 2s linear forwards;
+    font-family: Montserrat,sans-serif; text-align: center;
+     width: 100%; padding-top: 1rem;padding-bottom: 1rem;
+}

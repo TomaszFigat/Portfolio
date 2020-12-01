@@ -1,0 +1,39 @@
+.Video{
+    width: 100%;
+    display: inline-flex;
+    margin: 10px 20px;
+    }
+    
+    .Row{
+        
+        
+        margin: auto auto;
+        
+        
+    }
+    .Row div{
+        width: 40vh;
+        margin: 2rem auto;
+        /* text-align: center; */
+        
+        
+    }
+@media(min-width:570px){
+        .Video{
+            width: 96%;
+            display: inline-flex
+                ;
+            }
+            
+            .Row{
+                margin: auto auto;
+                
+            }
+            .Row div{
+                 width: 70vh; 
+                 margin: 2rem auto; 
+                /* text-align: center; */
+                
+                
+            }    
+    }

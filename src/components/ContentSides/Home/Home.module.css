@@ -1,0 +1,66 @@
+.Home{
+ position: relative;
+ padding-top: 3rem;
+    margin: auto; 
+ text-align: center;
+ 
+ 
+}
+.Home img{
+    margin-left: 35%;
+    width: 209px;
+    height: 306px;
+    box-shadow: dimgrey;
+    float: left;
+}
+
+
+.Text{
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    /* margin: 100px; */
+    /* float: right; */
+}
+
+.Text p{
+    
+    text-align: center;
+    color: black;
+    
+    
+}
+@media(min-width: 700px){
+    .Home{
+        position: relative;
+        
+           margin: auto; 
+        text-align: center;
+        
+        transition: all .3s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+       }
+       
+
+       .Text{
+    
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-bottom: 3rem;
+        text-align: center;
+        /* margin: 100px; */
+        /* float: right; */
+        
+    }
+    .Text p{
+        
+        text-align: center;
+        color: black;
+        
+        
+    }
+}

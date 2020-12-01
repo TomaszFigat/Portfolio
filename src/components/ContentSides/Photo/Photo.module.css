@@ -1,0 +1,16 @@
+.Photo{
+    
+    margin: 3rem 10px;
+    max-width: 1080px;
+    clear: both;
+}
+
+@media(min-width:500px){
+    .Photo{
+    
+        margin: 3rem auto;
+        max-width: 1080px;
+        clear: both;
+    }
+}
+

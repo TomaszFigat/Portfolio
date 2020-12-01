@@ -1,0 +1,22 @@
+.Background{
+    background-color:white;
+    /*   */
+}
+.Background img{
+    /* width: 100px; */
+    width: 100%;
+    
+
+    
+}
+@media(min-width:390px){
+    .Background{
+        background-color:white;
+        /*   */
+    }
+    .Background img{
+        width: 100%;
+        height:auto;
+        
+    }   
+}
